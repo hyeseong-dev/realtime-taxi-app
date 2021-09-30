@@ -1,0 +1,35 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "hyeseong-dev", email = "hyeseong43@gmail.com"},
+]
+dependencies = [
+    "django~=3.2",
+    "djangorestframework~=3.12",
+    "channels~=3.0",
+    "channels-redis~=3.3",
+    "pytest-asyncio~=0.15",
+    "pytest-django~=4.4",
+    "Pillow~=8.3",
+    "djangorestframework-simplejwt~=4.8",
+    "psycopg2-binary~=2.9",
+    "celery~=5.1",
+    "flower~=1.0",
+    "redis~=3.5",
+    "django-cors-headers~=3.9",
+]
+requires-python = ">=3.9"
+dynamic = ["classifiers"]
+license = {text = "MIT"}
+
+[project.urls]
+homepage = ""
+
+[build-system]
+requires = ["pdm-pep517"]
+build-backend = "pdm.pep517.api"
+
+[tool]
+[tool.pdm]
